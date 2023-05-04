@@ -1,3 +1,25 @@
+<<<<<<< HEAD
 # _config.yml
 
 title: "Jekyll Actions Demo"
+=======
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+>>>>>>> f04494d (real root)
